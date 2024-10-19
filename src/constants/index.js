@@ -16,7 +16,7 @@ import {
       figma,
       docker,
       meta,
-      starbucks,
+      rungtatech,
       tesla,
       shopify,
       carrent,
@@ -118,7 +118,7 @@ import {
       {
         title: "Node.js Backend Developer",
         company_name: "Rungta Tech",
-        icon: starbucks,
+        icon: rungtatech,
         iconBg: "#383E56",
         date: "July 2024 - October 2024",
         points: [
@@ -200,28 +200,32 @@ import {
       {
         name: "E-commerce Platform",
         description:
-          "Web-based platform that allows users to search, book, and manage product according to you choice, providing a convenient and efficient solution for transportation needs.",
+          " Engineered an E-commerce platform with a robust authentication system and product management features using Node.js, Express, and MongoDB. Integrated React to build a dynamic and responsive front-end Integrated Nodemailer inside the web for verification user",
         tags: [
           {
             name: "react",
             color: "blue-text-gradient",
           },
           {
-            name: "mongodb",
-            color: "green-text-gradient",
+            name: "NodeJs",
+            color: "red-text-gradient",
           },
           {
             name: "tailwind",
             color: "pink-text-gradient",
           },
+          {
+            name: "mongodb",
+            color: "green-text-gradient",
+          },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/ku12al/e-commerce",
       },
       {
         name: "Weather application",
         description:
-          "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+          "Engineered a real-time weather application using OpenWeather API to fetch weather data based on user location dynamically. Improved API call efficiency.  Implemented frontend components using Handlebars (hbs) and Embedded JavaScript (ejs) to create dynamic and responsive user interfaces",
         tags: [
           {
             name: "HTML",
@@ -235,30 +239,34 @@ import {
             name: "css",
             color: "pink-text-gradient",
           },
+          {
+            name: "NodeJs",
+            color: "red-text-gradient",
+          },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/ku12al/weathernewproject",
       },
       {
-        name: "Trip Guide",
+        name: "Hostel Mangement System",
         description:
-          "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+          "Solely developed the backend of a Hostel Management System, managing student registration and attendance processes. Engineered RESTful API endpoints using Node.js and Express.js for efficient data flow and management.",
         tags: [
           {
-            name: "nextjs",
+            name: "Node Js",
             color: "blue-text-gradient",
           },
           {
-            name: "supabase",
+            name: "MongoDb",
             color: "green-text-gradient",
           },
           {
-            name: "css",
+            name: "ExpressJs",
             color: "pink-text-gradient",
           },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/ku12al/HM-system",
       },
     ];
     
