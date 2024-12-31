@@ -4,14 +4,19 @@ import { Decal, Float, OrbitControls, Preload, useTexture } from "@react-three/d
 import CanvasLoader from "../Loader";
 
 const Ball = ({ imgUrl }) => {
-  const [decal, isDecalError] = useTexture(
-    imgUrl ? [imgUrl] : [],  // Make sure URL is not undefined
-    (error) => {
-      console.error("Error loading texture:", error);
-    }
-  );
+  if (!imgUrl) {
+    console.warn("No image URL provided. Rendering default mesh.");
+  }
 
-  if (isDecalError || !imgUrl) {
+  const decal = imgUrl ? useTexture(imgUrl) : null;
+  // const [decal, isDecalError] = useTexture(
+  //   imgUrl ? [imgUrl] : [],  // Make sure URL is not undefined
+  //   (error) => {
+  //     console.error("Error loading texture:", error);
+  //   }
+  // );
+
+  if (!imgUrl) {
     return (
       <mesh>
         <ambientLight intensity={0.25} />

@@ -21,8 +21,9 @@ import {
       shopify,
       carrent,
       jobit,
-      tripguide,
+      // tripguide,
       threejs,
+      hostelApp,
     } from "../assets";
     
     export const navLinks = [
@@ -123,7 +124,9 @@ import {
         date: "September 2024 - December 2024",
         points: [
           "Developed and maintained the backend for a comprehensive Hostel Management System using Node.js, catering to multiple user roles including students, wardens, gate guards, and super admins.",
-          "Designed and implemented QR code-based functionalities for: Attendance tracking: Each student is assigned a unique QR code used for marking daily attendance. Outing pass generation: A dynamic QR code-based outing pass is generated daily, valid for 12-24 hours, to manage student movements efficiently.",
+          "Designed and implemented QR code-based functionalities for:",
+          "Attendance tracking: Each student is assigned a unique QR code used for marking daily attendance.",
+          "Outing pass generation: A dynamic QR code-based outing pass is generated daily, valid for 12-24 hours, to manage student movements efficiently.",
           "Collaborated with cross-functional teams, including frontend developers and designers, to ensure seamless integration and functionality across the system's four applications.",
           "Participated in code reviews, ensuring clean, efficient, and maintainable code while providing constructive feedback to peers.",
           "Leveraged technologies like Express.js, MongoDB, and RESTful APIs to deliver scalable and robust backend solutions.",
@@ -267,7 +270,7 @@ import {
             color: "pink-text-gradient",
           },
         ],
-        // image: tripguide,
+        image: hostelApp,
         source_code_link: "https://github.com/ku12al/HM-system",
       },
     ];
