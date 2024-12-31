@@ -267,7 +267,7 @@ import {
             color: "pink-text-gradient",
           },
         ],
-        image: tripguide,
+        // image: tripguide,
         source_code_link: "https://github.com/ku12al/HM-system",
       },
     ];
