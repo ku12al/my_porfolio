@@ -8,6 +8,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedback";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Certification from "./Certification.jsx"
+import Programming_platform from "./Programming_platform.jsx"
 
 
 export {
@@ -23,5 +25,7 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Certification,
+  Programming_platform
 };

@@ -274,5 +274,43 @@ import {
         source_code_link: "https://github.com/ku12al/HM-system",
       },
     ];
+
+    const certificates = [
+      {
+        name: "Node Js Backend Mystry",
+        description:
+          " Engineered an E-commerce platform with a robust authentication system and product management features using Node.js, Express, and MongoDB. Integrated React to build a dynamic and responsive front-end Integrated Nodemailer inside the web for verification user",
+        image: carrent,
+        source_code_link: "https://github.com/ku12al/e-commerce",
+      },
+      {
+        name: "Data Structure and Algorithm",
+        description:
+          "Engineered a real-time weather application using OpenWeather API to fetch weather data based on user location dynamically. Improved API call efficiency.  Implemented frontend components using Handlebars (hbs) and Embedded JavaScript (ejs) to create dynamic and responsive user interfaces",
+        image: jobit,
+        source_code_link: "https://github.com/ku12al/weathernewproject",
+      },
+      {
+        name: "SIH 2023 Co-ordinator Certificate",
+        description:
+          "Solely developed the backend of a Hostel Management System, managing student registration and attendance processes. Engineered RESTful API endpoints using Node.js and Express.js for efficient data flow and management.",
+        image: hostelApp,
+        source_code_link: "https://github.com/ku12al/HM-system",
+      },
+      {
+        name: "SIH 2024 Co-ordinator Lead Certificate",
+        description:
+          "Solely developed the backend of a Hostel Management System, managing student registration and attendance processes. Engineered RESTful API endpoints using Node.js and Express.js for efficient data flow and management.",
+        image: hostelApp,
+        source_code_link: "https://github.com/ku12al/HM-system",
+      },
+      {
+        name: "hackathon participant",
+        description:
+          "Solely developed the backend of a Hostel Management System, managing student registration and attendance processes. Engineered RESTful API endpoints using Node.js and Express.js for efficient data flow and management.",
+        image: hostelApp,
+        source_code_link: "https://github.com/ku12al/HM-system",
+      },
+    ];
     
-    export { services, experiences, technologies, projects, testimonials};
+    export { services, experiences, technologies, projects, testimonials, certificates};
