@@ -8,6 +8,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import backend_node from "./backend_node.png";
 import dsa from "./dsa.png";
+import my_ppo_gi from "./my_ppo_gi.png";
+import my_ppp from "./my_ppp.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -63,5 +65,7 @@ export {
   // tripguide,
   hostelApp,
   backend_node,
-  dsa
+  dsa,
+  my_ppo_gi,
+  my_ppp,
 };

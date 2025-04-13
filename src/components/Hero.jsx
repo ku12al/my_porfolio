@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import { my_ppo_gi, my_ppp } from "../assets";
 
 const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -43,7 +44,7 @@ const Hero = () => {
             {/* Main image */}
             <img
               src={
-                isHovered ? "src/assets/my_ppo_gi.png" : "src/assets/my_ppp.png"
+                isHovered ? my_ppo_gi : my_ppp
               }
               alt="Kunal"
               className="relative w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
