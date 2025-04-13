@@ -38,9 +38,9 @@ const CertificateCard = ({
                   onClick={() => window.open(source_code_link, "_black")}
                 >
                   <img
-                    src={github}
+                    src="https://logos-world.net/wp-content/uploads/2020/11/Google-Drive-Logo-700x394.png"
                     alt="source code"
-                    className="w-1/2 h-1/2 object-contain"
+                    className="w-full h-full object-contain"
                   />
                 </div>
               </div>

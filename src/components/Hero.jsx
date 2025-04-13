@@ -29,34 +29,32 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex justify-center md:justify-end mt-10 md:mt-0">
-          <div className="relative w-45 h-65 border-4 border-black rounded-[999px] overflow-hidden flex items-center justify-center">
-            {/* Blurred background layer */}
-            <img
-              src={
-                isHovered ? "src/assets/my_ppo_gi.png" : "src/assets/my_ppp.png"
-              }
-              alt="blur-bg"
-              className="absolute w-full h-full object-cover blur-3xl scale-110"
-              aria-hidden="true"
-            />
+        <div className="flex justify-center md:justify-end items-center mt-10 md:mt-0">
+          <div className="relative w-[350px] h-[550px] rounded-[9999px]  shadow-[16px_16px_20px_#0000008c] overflow-hidden before:content-[''] before:absolute before:inset-0 before:rounded-[9999px] before:bg-[conic-gradient(from_0deg,transparent_40%,#915eff_60%,transparent_100%)] before:animate-[spin_6s_linear_infinite]">
+            <div className="absolute flex justify-center items-center w-[98%] h-[99%] rounded-[9999px] px-2 bg-[#241b31] shadow-[inset_20px_20px_20px_#0000008c] ml-1">
+              {/* Blurred background layer  */}
+              <img
+                src={isHovered ? my_ppo_gi : my_ppp}
+                alt="blur-bg"
+                className="absolute z-30 w-full h-full object-cover blur-3xl scale-110 "
+                aria-hidden="true"
+              />
 
-            {/* Main image */}
-            <img
-              src={
-                isHovered ? my_ppo_gi : my_ppp
-              }
-              alt="Kunal"
-              className="relative w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-            />
+              {/* Main image * */}
+              <img
+                src={isHovered ? my_ppo_gi : my_ppp}
+                alt="Kunal"
+                className="relative z-30 w-full h-full object-cover  transition-transform duration-300 hover:scale-105"
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
+              />
+            </div>
           </div>
         </div>
       </div>
       {/* <ComputersCanvas /> */}
 
-      <div className="absolute bottom-3 xs:bottom-1 w-full flex justify-center items-center mt-5">
+      <div className="absolute bottom-3 xs:bottom-1 w-full flex justify-center items-center mt-10">
         <a href="#about">
           <div className="w-[30px] h-[55px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.dev
