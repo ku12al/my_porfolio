@@ -29,22 +29,33 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center md:justify-end mt-10 md:mt-0">
-          <img
-            src={
-              isHovered
-                ? "src/assets/my_ppo_gi.png"
-                : "src/assets/my_ppp.png"
-            }
-            alt="Kunal"
-            className="w-[80%] transition-all duration-300"
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-          />
+          <div className="relative w-45 h-65 border-4 border-black rounded-[999px] overflow-hidden flex items-center justify-center">
+            {/* Blurred background layer */}
+            <img
+              src={
+                isHovered ? "src/assets/my_ppo_gi.png" : "src/assets/my_ppp.png"
+              }
+              alt="blur-bg"
+              className="absolute w-full h-full object-cover blur-3xl scale-110"
+              aria-hidden="true"
+            />
+
+            {/* Main image */}
+            <img
+              src={
+                isHovered ? "src/assets/my_ppo_gi.png" : "src/assets/my_ppp.png"
+              }
+              alt="Kunal"
+              className="relative w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            />
+          </div>
         </div>
       </div>
       {/* <ComputersCanvas /> */}
 
-      <div className="absolute bottom-3 xs:bottom-1 w-full flex justify-center items-center mt-0">
+      <div className="absolute bottom-3 xs:bottom-1 w-full flex justify-center items-center mt-5">
         <a href="#about">
           <div className="w-[30px] h-[55px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.dev

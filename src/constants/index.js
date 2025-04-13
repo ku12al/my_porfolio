@@ -24,6 +24,8 @@ import {
       // tripguide,
       threejs,
       hostelApp,
+      backend_node,
+      dsa
     } from "../assets";
     
     export const navLinks = [
@@ -279,28 +281,28 @@ import {
       {
         name: "Node Js Backend Mystry",
         description:
-          " Engineered an E-commerce platform with a robust authentication system and product management features using Node.js, Express, and MongoDB. Integrated React to build a dynamic and responsive front-end Integrated Nodemailer inside the web for verification user",
-        image: carrent,
-        source_code_link: "https://github.com/ku12al/e-commerce",
+          "I successfully completed a comprehensive Node.js certification from Coding Spoon, where I gained hands-on experience in building scalable backend applications. This certification covered core Node.js modules, Express.js, RESTful APIs, asynchronous programming, and MongoDB integration. It solidified my backend development skills and enhanced my ability to build real-world applications using modern JavaScript technologies.",
+        image: backend_node,
+        source_code_link: "https://drive.google.com/file/d/1Hzee1FRMpafKBFiY18t-iN3t4DI4ag5X/view?usp=sharing",
       },
       {
         name: "Data Structure and Algorithm",
         description:
-          "Engineered a real-time weather application using OpenWeather API to fetch weather data based on user location dynamically. Improved API call efficiency.  Implemented frontend components using Handlebars (hbs) and Embedded JavaScript (ejs) to create dynamic and responsive user interfaces",
-        image: jobit,
-        source_code_link: "https://github.com/ku12al/weathernewproject",
+          "Successfully completed a comprehensive DSA course using C++ from Coding Spoon. The course covered core concepts like arrays, strings, linked lists, stacks, queues, trees, graphs, recursion, dynamic programming, and more. Practiced solving real-world problems and improved my algorithmic thinking, problem-solving ability, and C++ proficiency.",
+        image: dsa,
+        source_code_link: "https://drive.google.com/file/d/14XKG0l_LJ0oQ9OsSc71a_20eq7zTgL3-/view",
       },
       {
         name: "SIH 2023 Co-ordinator Certificate",
         description:
-          "Solely developed the backend of a Hostel Management System, managing student registration and attendance processes. Engineered RESTful API endpoints using Node.js and Express.js for efficient data flow and management.",
+          "I received the SIH 2023 Coordinator Certificate for successfully organizing and managing the internal Smart India Hackathon activities at my college. As a coordinator, I facilitated team formation, guided participants through the submission process, and ensured smooth communication between teams and organizers. This experience enhanced my leadership, communication, and organizational skills while contributing to one of India's largest innovation events.",
         image: hostelApp,
         source_code_link: "https://github.com/ku12al/HM-system",
       },
       {
         name: "SIH 2024 Co-ordinator Lead Certificate",
         description:
-          "Solely developed the backend of a Hostel Management System, managing student registration and attendance processes. Engineered RESTful API endpoints using Node.js and Express.js for efficient data flow and management.",
+          "Honored with the SIH 2024 Coordinator Lead Certificate for taking a leadership role in organizing the Smart India Hackathon at my college. As the Lead Coordinator, I was responsible for overseeing the entire internal hackathon process — from team registration and idea validation to mentoring and final submissions. This role allowed me to collaborate with faculty and students, sharpen my leadership and management skills, and contribute to fostering innovation at the grassroots level.",
         image: hostelApp,
         source_code_link: "https://github.com/ku12al/HM-system",
       },
