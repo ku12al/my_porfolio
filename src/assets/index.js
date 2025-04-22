@@ -10,6 +10,10 @@ import backend_node from "./backend_node.png";
 import dsa from "./dsa.png";
 import my_ppo_gi from "./my_ppo_gi.png";
 import my_ppp from "./my_ppp.png";
+import leetCode from "./leetCode.png";
+import codeChef from "./codeChef.png";
+import hackerrank from "./hackerrank.png";
+import gfg from "./gfg.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -68,4 +72,8 @@ export {
   dsa,
   my_ppo_gi,
   my_ppp,
+  leetCode,
+  codeChef,
+  hackerrank,
+  gfg,
 };
