@@ -8,9 +8,9 @@ import { my_ppo_gi, my_ppp } from "../assets";
 const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full min-h-screen mx-auto">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-col md:flex-row items-start gap-10`}
+        className={`${styles.paddingX} absolute inset-0 top-[100px] max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10`}
       >
         <div className="mt-1 flex flex-row justify-center items-center mx-auto">
           <div className="flex flex-col justify-center items-center mt-5 mx-auto">
@@ -29,14 +29,14 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex justify-center md:justify-end items-center mt-10 md:mt-0">
-          <div className="relative w-[350px] h-[550px] rounded-[9999px]  shadow-[16px_16px_20px_#0000008c] overflow-hidden before:content-[''] before:absolute before:inset-0 before:rounded-[9999px] before:bg-[conic-gradient(from_0deg,transparent_40%,#915eff_60%,transparent_100%)] before:animate-[spin_6s_linear_infinite]">
+        <div className="flex justify-center md:justify-end items-center mt-10 md:mt-0 ">
+          <div className="relative w-[250px] h-[400px] sm:w-[300px] sm:h-[500px] md:w-[350px] md:h-[550px] rounded-[9999px]  shadow-[16px_16px_20px_#0000008c] overflow-hidden before:content-[''] before:absolute before:inset-0 before:rounded-[9999px] before:bg-[conic-gradient(from_0deg,transparent_40%,#915eff_60%,transparent_100%)] before:animate-[spin_6s_linear_infinite]">
             <div className="absolute flex justify-center items-center w-[98%] h-[99%] rounded-[9999px] px-2 bg-[#241b31] shadow-[inset_20px_20px_20px_#0000008c] ml-1">
               {/* Blurred background layer  */}
               <img
                 src={isHovered ? my_ppo_gi : my_ppp}
                 alt="blur-bg"
-                className="absolute z-30 w-full h-full object-cover blur-3xl scale-110 "
+                className="absolute w-full h-full object-cover blur-3xl scale-110 "
                 aria-hidden="true"
               />
 
