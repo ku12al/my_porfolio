@@ -3,9 +3,10 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utills/motion";
 import { motion } from "framer-motion";
 import { styles } from "../style";
-import { programmin_platform } from "../constants";
+// import { programmin_pla } from "../constants";
 import { Tilt } from "react-tilt";
-import { github } from "../assets";
+import { programmin_platform } from "../constants";
+
 
 const PlatformCard = ({
   index,
@@ -35,13 +36,13 @@ const PlatformCard = ({
           <div className="absolute inset-0 flex justify-end m-3 card_img_hover">
             <div
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-              onClick={() => window.open(source_code_link, "_black")}
+              onClick={() => window.open(source_code_link, "_blank")}
             >
-              <img
+              {/* <img
                 src="https://logos-world.net/wp-content/uploads/2020/11/Google-Drive-Logo-700x394.png"
                 alt="source code"
                 className="w-full h-full object-contain"
-              />
+              /> */}
             </div>
           </div>
         </div>
