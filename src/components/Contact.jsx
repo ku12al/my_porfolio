@@ -13,7 +13,10 @@ const Contact = () => {
     message: "",
   });
   const [loading, setLoading] = useState(false);
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
 
   const handleSubmit = (e) => {};
   return (
@@ -27,7 +30,7 @@ const Contact = () => {
 
         <form
           ref={formRef}
-          onSubmit={handleChange}
+          onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
@@ -70,6 +73,15 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+          <div className="flex justify-center items-center gap-4 mt-4">
+            <a href="https://www.linkedin.com/in/kunal-kumar-2ab402263/" className="black-gradient rounded-full p-2">
+            <img src="https://th.bing.com/th/id/R.d51da72e1f4675ba5aef9c956ed4c562?rik=FmeldpqK57Pqdw&riu=http%3a%2f%2fwww.freepnglogos.com%2fuploads%2fofficial-linkedin-logo----17.png&ehk=D2%2b5urO8gseetYQhxdSGq2qyTRbSvoavbbmoGEuOepo%3d&risl=&pid=ImgRaw&r=0" alt="" className="w-8 h-8"/>
+            </a>
+            <a href="mailto:kunalsharma1272003@gmail.com" className="black-gradient rounded-full p-2">
+              <img src="https://static.vecteezy.com/system/resources/previews/022/484/516/original/google-mail-gmail-icon-logo-symbol-free-png.png" alt="" className="w-8 h-8 rounded-full"/>
+            </a>
+          </div>
         </form>
       </motion.div>
       <motion.div

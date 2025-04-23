@@ -15,12 +15,12 @@ const Tech = () => {
           </motion.div>
     <div className="flex flex-row flex-wrap justify-center gap-10 mt-5">
       {technologies.map((technology) => (
-        <div className="w-28 h-28" key={technology.name}>
+        <div className="w-32 h-32" key={technology.name}>
           {/* <BallCanvas icon={technology.icon}/> */}
           <img
             src={technology.icon}
             alt={technology.name}
-            className="w-full h-full object-contain"
+            className="w-full h-full object-contain rounded-full"
           />
         </div>
       ))}
