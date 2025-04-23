@@ -14,7 +14,10 @@ import leetCode from "./leetcode.png";
 import codeChef from "./codechef.png";
 import hackerrank from "./hackerrank.png";
 import gfg from "./gfg.png";
-
+import leetcode_logo from "./Leet_logo.webp";
+import codechef_logo from "./codechef_logo.png"
+import gfg_logo from "./gfg_logo.png";
+import hackerrank_logo from "./hackerrank_logo.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -76,4 +79,8 @@ export {
   codeChef,
   hackerrank,
   gfg,
+  leetcode_logo,
+  codechef_logo,  
+  gfg_logo,
+  hackerrank_logo,
 };

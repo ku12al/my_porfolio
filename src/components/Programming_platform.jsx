@@ -7,13 +7,12 @@ import { styles } from "../style";
 import { Tilt } from "react-tilt";
 import { programmin_platform } from "../constants";
 
-
 const PlatformCard = ({
   index,
   image,
   name,
   description,
-  tags,
+  logo,
   source_code_link,
 }) => {
   return (
@@ -43,6 +42,11 @@ const PlatformCard = ({
                 alt="source code"
                 className="w-full h-full object-contain"
               /> */}
+              <img
+                src={logo}
+                alt={`${name} logo`}
+                className="w-3/4 h-3/4 object-contain rounded-full"
+              />
             </div>
           </div>
         </div>

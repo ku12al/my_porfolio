@@ -30,6 +30,10 @@ import {
   codeChef,
   hackerrank,
   gfg,
+  gfg_logo,
+  leetcode_logo,
+  hackerrank_logo,
+  codechef_logo
 } from "../assets";
 
 export const navLinks = [
@@ -330,6 +334,7 @@ const programmin_platform = [
       "📈 Current contest rating: 1450+",
     ],
     image: leetCode,
+    logo: leetcode_logo,
     source_code_link: "https://leetcode.com/u/ks1140175/",
   },
   {
@@ -341,6 +346,7 @@ const programmin_platform = [
       "🔥 175-day streak",
     ],
     image: gfg,
+    logo: gfg_logo,
     source_code_link: "https://www.geeksforgeeks.org/user/kunalsharma127/",
   },
   {
@@ -351,6 +357,7 @@ const programmin_platform = [
       "📉 Contest Rating: 1170",
     ],
     image: codeChef,
+    logo: codechef_logo,
     source_code_link: "https://www.codechef.com/users/kunal_127",
   },
   {
@@ -362,6 +369,7 @@ const programmin_platform = [
       "🧠 Gained hands-on experience with real-world coding challenges",
     ],
     image: hackerrank,
+    logo: hackerrank_logo,
     source_code_link: "https://www.hackerrank.com/profile/ks1140175",
   },
 ];
