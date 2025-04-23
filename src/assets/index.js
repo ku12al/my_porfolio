@@ -10,8 +10,8 @@ import backend_node from "./backend_node.png";
 import dsa from "./dsa.png";
 import my_ppo_gi from "./my_ppo_gi.png";
 import my_ppp from "./my_ppp.png";
-import leetCode from "./leetCode.png";
-import codeChef from "./codeChef.png";
+import leetCode from "./leetcode.png";
+import codeChef from "./codechef.png";
 import hackerrank from "./hackerrank.png";
 import gfg from "./gfg.png";
 
